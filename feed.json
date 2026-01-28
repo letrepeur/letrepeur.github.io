@@ -1,0 +1,25 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Letrepeur Hectfal",
+    "description": "",
+    "home_page_url": "https://letrepeur.github.io",
+    "feed_url": "https://letrepeur.github.io/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Letrepeur"
+    },
+    "items": [
+        {
+            "id": "https://letrepeur.github.io/ola-mundo.html",
+            "url": "https://letrepeur.github.io/ola-mundo.html",
+            "title": "Olá, mundo!",
+            "author": {
+                "name": "Letrepeur"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-01-27T20:52:18-03:00",
+            "date_modified": "2026-01-27T20:52:18-03:00"
+        }
+    ]
+}

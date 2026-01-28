@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://letrepeur.github.io/sitemap.xml

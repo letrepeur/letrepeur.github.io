@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Letrepeur Hectfal</title>
+    <link href="https://letrepeur.github.io/feed.xml" rel="self" />
+    <link href="https://letrepeur.github.io" />
+    <updated>2026-01-27T20:52:18-03:00</updated>
+    <author>
+        <name>Letrepeur</name>
+    </author>
+    <id>https://letrepeur.github.io</id>
+
+    <entry>
+        <title>Olá, mundo!</title>
+        <author>
+            <name>Letrepeur</name>
+        </author>
+        <link href="https://letrepeur.github.io/ola-mundo.html"/>
+        <id>https://letrepeur.github.io/ola-mundo.html</id>
+
+        <updated>2026-01-27T20:52:18-03:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+</feed>
