@@ -22,18 +22,6 @@
             ],
             "date_published": "2026-01-27T21:37:33-03:00",
             "date_modified": "2026-01-27T21:47:23-03:00"
-        },
-        {
-            "id": "https://letrepeur.github.io/ola-mundo.html",
-            "url": "https://letrepeur.github.io/ola-mundo.html",
-            "title": "Olá, mundo!",
-            "author": {
-                "name": "Letrepeur"
-            },
-            "tags": [
-            ],
-            "date_published": "2026-01-27T20:52:18-03:00",
-            "date_modified": "2026-01-27T21:27:46-03:00"
         }
     ]
 }

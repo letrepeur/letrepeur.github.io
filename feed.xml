@@ -30,16 +30,4 @@
             ]]>
         </content>
     </entry>
-    <entry>
-        <title>Olá, mundo!</title>
-        <author>
-            <name>Letrepeur</name>
-        </author>
-        <link href="https://letrepeur.github.io/ola-mundo.html"/>
-        <id>https://letrepeur.github.io/ola-mundo.html</id>
-
-        <updated>2026-01-27T20:52:18-03:00</updated>
-            <summary></summary>
-        <content></content>
-    </entry>
 </feed>
