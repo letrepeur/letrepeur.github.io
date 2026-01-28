@@ -9,5 +9,31 @@
         "name": "Letrepeur"
     },
     "items": [
+        {
+            "id": "https://letrepeur.github.io/risos-em-flores.html",
+            "url": "https://letrepeur.github.io/risos-em-flores.html",
+            "title": "Risos em flores",
+            "summary": "<div class=\"post__iframe\"><iframe loading=\"lazy\" width=\"353\" height=\"353\" style=\"width: 353px; height: 353px;\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2178046632&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true\"></iframe></div> testes do site</p>\n",
+            "content_html": "<div class=\"post__iframe\"><iframe loading=\"lazy\" width=\"353\" height=\"353\" style=\"width: 353px; height: 353px;\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2178046632&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true\"></iframe></div> testes do site</p>\n\n<div style=\"font-size: 10px; color: #cccccc; line-break: anywhere; word-break: normal; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif; font-weight: 100;\"><a href=\"https://soundcloud.com/letrepeur\" title=\"Letrepeur\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\" rel=\"noopener\">Letrepeur</a> · <a href=\"https://soundcloud.com/letrepeur/risos-em-flores\" title=\"Risos em flores\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\" rel=\"noopener\">Risos em flores</a></div>",
+            "author": {
+                "name": "Letrepeur"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-01-27T21:37:33-03:00",
+            "date_modified": "2026-01-27T21:37:33-03:00"
+        },
+        {
+            "id": "https://letrepeur.github.io/ola-mundo.html",
+            "url": "https://letrepeur.github.io/ola-mundo.html",
+            "title": "Olá, mundo!",
+            "author": {
+                "name": "Letrepeur"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-01-27T20:52:18-03:00",
+            "date_modified": "2026-01-27T21:27:46-03:00"
+        }
     ]
 }
