@@ -1,144 +1,74 @@
-/* ==========================
-   Tema Minimal Music Blog
-   Inspirado em Pantone Mountain View
-   ========================== */
-
 :root {
-    --accent: #6A9FB5;
-    --accent-dark: #4E7C90;
+    --accent: #6a9fb5;
+    --accent-dark: #46748a;
     --bg: #f6f8f9;
     --card: #ffffff;
-    --text: #2c3136;
-    --muted: #6f7880;
-    --border: #dbe3e8;
+    --text: #222;
+    --border: #d7e1e7;
 }
 
-/* Fundo geral */
+* {
+    box-sizing: border-box;
+}
+
 body {
+    margin: 0;
     background: var(--bg);
     color: var(--text);
-    font-family: "Segoe UI", system-ui, sans-serif;
-    line-height: 1.7;
+    font-family: system-ui, sans-serif;
+    line-height: 1.6;
 }
 
-/* Cabeçalho */
-.header,
-.topbar {
+.site-header {
+    text-align: center;
+    padding: 4rem 1rem;
     background: white;
-    border-bottom: 1px solid var(--border);
+    border-top: 6px solid var(--accent);
 }
 
-.logo a,
-.site-name {
+.site-header h1 {
+    margin: 0;
     color: var(--accent-dark);
-    font-weight: 700;
-    letter-spacing: 0.03em;
+    font-size: 2.2rem;
 }
 
-/* Navegação */
-.navbar a,
-.nav a {
-    color: var(--text);
-    transition: color 0.2s ease;
+.site-header p {
+    color: #666;
 }
 
-.navbar a:hover,
-.nav a:hover {
-    color: var(--accent);
+main {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 1rem;
 }
 
-/* Área principal */
-.post,
-.post__inner,
-.article,
-.content {
+.release {
     background: var(--card);
-    border-radius: 10px;
-}
-
-/* Títulos */
-h1,
-h2,
-h3,
-.post-title,
-.entry-title {
-    color: var(--accent-dark);
-    font-weight: 600;
-}
-
-.post-title {
-    margin-bottom: 0.5rem;
-}
-
-/* Metadados */
-.post__meta,
-.post-meta,
-.meta {
-    color: var(--muted);
-    font-size: 0.9rem;
-}
-
-/* Links */
-a {
-    color: var(--accent);
-}
-
-a:hover {
-    color: var(--accent-dark);
-}
-
-/* Embeds de vídeo e áudio */
-iframe {
-    border-radius: 8px;
+    border-radius: 12px;
     overflow: hidden;
+    box-shadow: 0 3px 15px rgba(0,0,0,.05);
 }
 
-/* Cartões dos posts */
-.post,
-.post-card,
-.article {
+.release img {
+    width: 100%;
+    display: block;
+}
+
+.release-content {
     padding: 2rem;
-    margin-bottom: 2rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
 
-/* Separadores */
-hr {
-    border: none;
-    border-top: 1px solid var(--border);
+.release h2 {
+    margin-top: 0;
+    color: var(--accent-dark);
 }
 
-/* Botões */
-button,
-.btn,
-input[type="submit"] {
-    background: var(--accent);
-    color: white;
-    border: none;
-    border-radius: 6px;
-    padding: 0.7rem 1.2rem;
-    transition: 0.2s ease;
+.player {
+    margin-top: 1.5rem;
 }
 
-button:hover,
-.btn:hover,
-input[type="submit"]:hover {
-    background: var(--accent-dark);
-}
-
-/* Rodapé */
-.footer {
-    margin-top: 4rem;
-    border-top: 1px solid var(--border);
-    background: white;
-    color: var(--muted);
-}
-
-/* Responsividade */
-@media (max-width: 768px) {
-    .post,
-    .post-card,
-    .article {
-        padding: 1.2rem;
-    }
+footer {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: #666;
 }
