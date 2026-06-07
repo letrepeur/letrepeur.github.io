@@ -1,0 +1,144 @@
+/* ==========================
+   Tema Minimal Music Blog
+   Inspirado em Pantone Mountain View
+   ========================== */
+
+:root {
+    --accent: #6A9FB5;
+    --accent-dark: #4E7C90;
+    --bg: #f6f8f9;
+    --card: #ffffff;
+    --text: #2c3136;
+    --muted: #6f7880;
+    --border: #dbe3e8;
+}
+
+/* Fundo geral */
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Segoe UI", system-ui, sans-serif;
+    line-height: 1.7;
+}
+
+/* Cabeçalho */
+.header,
+.topbar {
+    background: white;
+    border-bottom: 1px solid var(--border);
+}
+
+.logo a,
+.site-name {
+    color: var(--accent-dark);
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+/* Navegação */
+.navbar a,
+.nav a {
+    color: var(--text);
+    transition: color 0.2s ease;
+}
+
+.navbar a:hover,
+.nav a:hover {
+    color: var(--accent);
+}
+
+/* Área principal */
+.post,
+.post__inner,
+.article,
+.content {
+    background: var(--card);
+    border-radius: 10px;
+}
+
+/* Títulos */
+h1,
+h2,
+h3,
+.post-title,
+.entry-title {
+    color: var(--accent-dark);
+    font-weight: 600;
+}
+
+.post-title {
+    margin-bottom: 0.5rem;
+}
+
+/* Metadados */
+.post__meta,
+.post-meta,
+.meta {
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+
+/* Links */
+a {
+    color: var(--accent);
+}
+
+a:hover {
+    color: var(--accent-dark);
+}
+
+/* Embeds de vídeo e áudio */
+iframe {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Cartões dos posts */
+.post,
+.post-card,
+.article {
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+/* Separadores */
+hr {
+    border: none;
+    border-top: 1px solid var(--border);
+}
+
+/* Botões */
+button,
+.btn,
+input[type="submit"] {
+    background: var(--accent);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0.7rem 1.2rem;
+    transition: 0.2s ease;
+}
+
+button:hover,
+.btn:hover,
+input[type="submit"]:hover {
+    background: var(--accent-dark);
+}
+
+/* Rodapé */
+.footer {
+    margin-top: 4rem;
+    border-top: 1px solid var(--border);
+    background: white;
+    color: var(--muted);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .post,
+    .post-card,
+    .article {
+        padding: 1.2rem;
+    }
+}
