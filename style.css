@@ -1,9 +1,20 @@
+@font-face {
+    font-family: "Moonbeam";
+    src: url("fonts/moonbeam-regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Metropolis Bold";
+    src: url("fonts/Metropolis-Bold.otf") format("opentype");
+}
+
+
 :root {
-    --accent: #6a9fb5;
-    --accent-dark: #46748a;
-    --bg: #f6f8f9;
-    --card: #ffffff;
-    --text: #222;
+    --accent: #006310;
+    --accent-dark: #008a49;
+    --bg: #002c07;
+    --card: #006e21;
+    --text: #d1d1d1;
     --border: #d7e1e7;
 }
 
@@ -22,18 +33,24 @@ body {
 .site-header {
     text-align: center;
     padding: 4rem 1rem;
-    background: white;
+    background: rgb(17, 17, 17);
     border-top: 6px solid var(--accent);
 }
 
 .site-header h1 {
+    font-family: "Metropolis Bold";
     margin: 0;
     color: var(--accent-dark);
     font-size: 2.2rem;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .site-header p {
-    color: #666;
+    font-style: italic;
+    color: var(--text);
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 main {
@@ -54,21 +71,29 @@ main {
     display: block;
 }
 
-.release-content {
-    padding: 2rem;
+.release-content1 {
+    padding: 1rem;
 }
 
 .release h2 {
-    margin-top: 0;
-    color: var(--accent-dark);
+    font-family: "Moonbeam";
+    font-size: 36;
+    margin-top: -12px;
+    margin-bottom: -10px;
+    color: var(--text);
 }
 
+.release p {
+    font-style: italic;
+    margin-top: 0;
+    color: var(--text);
+}
 .player {
-    margin-top: 1.5rem;
+    margin-top: 1.0rem;
 }
 
 footer {
     text-align: center;
     padding: 3rem 1rem;
-    color: #666;
+    color: #dadada;
 }
