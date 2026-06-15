@@ -1,0 +1,98 @@
+/* Puxa as fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Define as variáveis usadas globalmente, como cores */
+:root {
+    --accent: #006310;
+    --accent-dark: #6a7d60;
+    --bg:#121512; 
+    --card: rgba(35, 41, 35, 0.9);
+    --text: #d1d1d1;
+    --border: #d7e1e7;
+}
+/* Grade de Serviços, com auto-fit para os blocos */
+.grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, 500px); 
+    grid-auto-rows: auto; 
+    gap: 15px; 
+    justify-content: center; 
+    width: 100lh;
+    max-width: 100%; 
+    padding: 0 20px; 
+    box-sizing: border-box;
+    }
+/* Background do site */
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, sans-serif;
+    line-height: 1.6;
+    min-height: 100px;
+}
+/* Configuração do cabeçalho "Letrepeur Hectfal */
+.site-header {
+    text-align: center;
+    padding: 4rem 1rem;
+    background: rgb(17, 17, 17);
+    border-top: 6px solid var(--accent);
+}
+/* Aqui mexe no título */
+.site-header h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin: 0;
+    color: var(--accent-dark);
+    font-size: 2.2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* Aqui mexe no parágrafo */
+.site-header p {
+    font-family: 'DM Sans', sans-serif;
+    font-style: italic;
+    letter-spacing: -1px;
+    color: var(--text);
+    margin-top: -10px;
+    margin-bottom: 0;
+}
+/*-----------------------------------*/
+/* Começa a mexer nos blocos de sons de forma geral na classe "obra"*/
+.obra{
+    border: 1px solid rgba(255, 255, 255, 0.05); 
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    transition: all 0.4s; 
+    backdrop-filter: blur(10px); 
+    position: relative; 
+    overflow: hidden;
+}
+
+h2{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    margin-bottom: -20px;
+}
+p {
+    font-family: Helvetica;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+/* Roda pé do site */
+
+footer {
+    text-align: center;
+    padding: 1.5rem 1rem;
+    color: #dadada;
+    margin-top: 40px;
+    margin-bottom: auto;
+}
